@@ -2,8 +2,8 @@
   "manifestVersion": 1,
   "id": "apim",
   "name": "API Management Suite",
-  "version": "3.5.1",
-  "publisher": "stephane-eyskens",
+  "version": "3.6.1",
+  "publisher": "SahinenRick",
   "tags": [
     "API",
     "Security"
@@ -52,6 +52,9 @@
     },
     {
       "path": "apimwsdl"
+    },
+    {
+      "path": "apimversionedwsdl"
     },
     {
       "path": "apisecuritychecker"
@@ -115,6 +118,16 @@
       ],
       "properties": {
         "name": "apimwsdl"
+      }
+    },
+    {
+      "id": "apimversionedwsdl",
+      "type": "ms.vss-distributed-task.task",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "properties": {
+        "name": "apimversionedwsdl"
       }
     },
     {

@@ -1,6 +1,6 @@
 {
-  "id": "9bfd810a-5e2b-4871-95d8-ae6e677d4224",
-  "name": "apimwsdl",
+  "id": "00f0500d-439e-4089-89e7-1d62dfca7072",
+  "name": "apimversionedwsdl",
   "friendlyName": "API Management - Create or Update Versioned API from WSDL",
   "description": "API Management - Create or update Versioned API from WSDL",
   "author": "Stephane Eyskens",
